@@ -8,6 +8,7 @@
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: left;
     height: 200vh;
     width: 100%;
     background-color: #212020;
@@ -19,7 +20,6 @@
     top: 20%;
     height: 75vh;
 }
-
 .welcome h2{
     font-size: 30px;
     color: white;
@@ -28,9 +28,9 @@
 
 .welcome p{
     position: absolute;
-    margin: 5% 3%;
     font-family: 'Chivo Mono', monospace;
-    font-size: 20px;
+    margin: 5% 3%;
+    font-size: 15px;
     color: #21bf19;
 }
 
@@ -43,4 +43,11 @@
 .welcome ul li a{
     font-family: 'Chivo Mono', monospace;
     color: #bababa;
+}
+.github{
+    font-family: 'Chivo Mono', monospace;
+    color: #3480eb;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 1% 1%;
 }
