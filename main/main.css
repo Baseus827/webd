@@ -1,3 +1,46 @@
-html{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,500;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Chivo Mono', monospace; */
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 100%;
+    background-color: #212020;
+}
+
+.welcome{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    height: 75vh;
+}
+
+.welcome h2{
+    font-size: 30px;
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.welcome p{
+    position: absolute;
+    margin: 5% 3%;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 20px;
+    color: #21bf19;
+}
+
+.welcome ul{
+    margin: 15% 8%;
+}
+.welcome ul li{
+    list-style: none;
+}
+.welcome ul li a{
+    font-family: 'Chivo Mono', monospace;
+    color: #bababa;
 }
