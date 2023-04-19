@@ -53,14 +53,11 @@
 @media only screen and (max-width:500px) {
     .container{justify-content: center;}
     .welcome{
-        left: 10%;
+        left: 15%;
     }
-}@media only screen and (max-width:400px) {
-    .container{justify-content: center;}
-    .welcome{
-        left: 5%;
-    }
-}@media only screen and (max-width:300px) {
+}
+
+@media only screen and (max-width:300px) {
     .container{justify-content: center;}
     .welcome{
         left: 20%;
