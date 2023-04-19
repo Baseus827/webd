@@ -3,13 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+
 }
 /* font-family: 'Chivo Mono', monospace; */
 .container{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    height: 200vh;
+    height: 100vh;
     width: 100%;
     background-color: #212020;
 }
@@ -23,12 +25,10 @@
 .welcome h2{
     font-size: 30px;
     color: white;
-    font-family: 'Chivo Mono', monospace;
 }
 
 .welcome p{
     position: absolute;
-    font-family: 'Chivo Mono', monospace;
     margin: 5% 3%;
     font-size: 15px;
     color: #21bf19;
@@ -41,11 +41,9 @@
     list-style: none;
 }
 .welcome ul li a{
-    font-family: 'Chivo Mono', monospace;
     color: #bababa;
 }
 .github{
-    font-family: 'Chivo Mono', monospace;
     color: #3480eb;
     font-size: 13px;
     text-decoration: none;
