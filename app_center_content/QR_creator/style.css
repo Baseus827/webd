@@ -5,6 +5,10 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 text-decoration: none;
+user-select: none;
+}
+img{
+border-radius: 15px;
 }
 .container{
 display: flex;
@@ -63,7 +67,3 @@ transition: 0.05s;
 transform: translateY(10px);
 }
 
-img{
-border-radius: 15px;
-	
-}
