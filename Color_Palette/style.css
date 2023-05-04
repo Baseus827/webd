@@ -5,6 +5,8 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	user-select: none;
 }
 
 .container{
@@ -20,22 +22,88 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	height: 500px;
-	width: 800px;
+	height: 550px;
+	width: 900px;
 	border-radius: 15px;
 	background-color: #333333;
 }
 
-.color-selection{
+.color-type{
+	display: flex;
 	border-radius: 5px;
-	width: 25%;
+	justify-content: center;
+	width: 240px;
 	height: 94%;
-	background-color: #444444;
+	max-height: 94%;
+	overflow: hidden;
+	background-color: #888;
 }
-
-.color-output{
+.color-type .color-select-card{
+	text-align: center;
+	width: 225px;
+	border: 2px solid wheat;
+	margin: 5px 0 5px;
+	border-radius: 5px;
+	background-color: ghostwhite;
+}
+.color-type .color-select-card a{
+	font-size: 28px;
+	color: black;
+}
+.color-output-main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	border-radius: 5px;
 	width: 70%;
 	height: 94%;
-	background-color: #444444;
+	background-color: #888;
+}
+
+.color-output{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: start;
+	width: 95%;
+	height: 65%;
+	background-color: #ffff55;
+}
+
+.output-card{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+	margin: 9px 0px 0px 36px;
+	height: 150px;
+	width: 150px;
+	background-color: #fff;
+}
+
+.output-card-view{
+	height: 98px;
+	width: 138px;
+	border: 3px solid black;
+	border-radius: 10px 10px 20px 20px;
+	background-color: #787878;
+	transition: 0.2s;
+}
+.output-card-view:hover{
+	transform: translateY(3px);
+}
+.output-card a{
+	padding: 3.5px;
+	font-size: 20px;
+	transition: 0.2s;
+}
+.output-card a:hover{
+	transform: translateY(3px);
+}
+.color-anlyz{
+	width: 95%;
+	height: 30%;
+	background-color: #ff2255;
 }
